@@ -54,7 +54,7 @@ function LandingPage({ history, match }) {
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-6">
                                 <div className="form-group">
-                                    <label>Launch Success</label>
+                                    <label>Land Success</label>
                                     <select className="form-control" onChange={(e)=>setland(e.target.value)} required value={land}>
                                         <option value={null}>Select Landing type</option>
                                         <option value={true}>Success</option>
